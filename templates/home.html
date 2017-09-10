@@ -1,0 +1,19 @@
+<nav>
+    <div id="left">
+        <ul class="nav">
+            <li class="active"><a type="button" ng-click="getShips()">Select a Ship</a></li>
+            <li><a href="">Ship Details</a></li>
+            <li><a href="">Ship tunning</a></li>
+        </ul>
+    </div>
+</nav>
+<section class="container" id="right">
+    <div class="row scroll-row">
+        <div class="col-xs-6 col-md-4 ships-box" ng-repeat="ship in ships">
+            <button  ng-click="getDetailsById()" ng-model="idShipSelected" value="ship.id" class="thumbnail"><img src="{{ship.image}}" alt="..."></button>
+            <div class="caption">
+                <h4 >{{ship.name}}</h4>
+            </div>
+        </div>
+    </div>
+</section>

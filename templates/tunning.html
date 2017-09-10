@@ -1,0 +1,64 @@
+<nav>
+    <div id="left">
+        <ul class="nav">
+            <li class="active"><a href="#!/">Select a Ship</a></li>
+            <li><a href="#!/details">Ship Details</a></li>
+            <li><a href="#!/tunning">Ship tunning</a></li>
+        </ul>
+    </div>
+</nav>
+<section class="container" id="right">
+    <div class="row">
+        <div class="col-xs-12 col-md-4 col-md-offset-2 ships-box">
+            <a href="#" class="thumbnail">
+                <img src="http://www.theforce.net/swtc/Pix/dvd/ep5/supersd3.jpg" alt="...">
+              </a>
+            <div class="caption">
+                <h4>Death Star</h4>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-4 col-md-offset-1 ships-box">
+            <a href="#" class="thumbnail">
+                <img src="http://www.theforce.net/swtc/Pix/dvd/ep5/supersd3.jpg" alt="...">
+              </a>
+            <div class="caption">
+                <h4>Death Star</h4>
+            </div>
+        </div>
+        <div class="row switch-buttons">
+            <div class="col-xs-12 col-md-4 col-md-offset-2 ships-box">
+                <label class="input-toggle">
+                    <input type="checkbox" checked>s
+                    <span></span>
+                </label>
+                <p id="set-buttons">Enable detection</p>
+            </div>
+        </div>
+        <div class="row switch-buttons">
+            <div class="col-xs-12 col-md-4 col-md-offset-2 ships-box">
+                <label class="input-toggle">
+                    <input type="checkbox" checked>s
+                    <span></span>
+                </label>
+                <p id="set-buttons">Install interstellar turbo boost</p>
+            </div>
+        </div>
+        <div class="row switch-buttons">
+            <div class="col-xs-12 col-md-4 col-md-offset-2 ships-box">
+                <input id="number-passengers" type="number" value="0" />
+                <p id="passengers">Number of passengers </p>
+            </div>
+        </div>
+        <div class="row switch-buttons">
+            <div class="col-xs-12 col-md-4 col-md-offset-2 ships-box">
+                <input id="date" type="date" min="2017-04-01" max="2017-04-20" required>
+                <span class="validity"></span>
+                <p class="reservation"><img id="date-img" src="icon.png">Reservation date</p>
+            </div>
+        </div>
+        <div class="main-buttons">
+            <button>Reserve</button>
+            <button>Build for me</button>
+        </div>
+    </div>
+</section>
