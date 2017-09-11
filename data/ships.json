@@ -6,6 +6,7 @@
 {
 "name": "Executor",
 "id":"001",
+"description":"The mighty flagship of Darth Vader, the Executor led Death Squadron during the Empire’s assault on Hoth and pursued the Millennium Falcon to Bespin, where Luke Skywalker and his friends narrowly escaped her tractor beams. First commanded by Admiral Ozzel and later by Admiral Piett, the massive warship met her end during the Battle of Endor, when a rebel A-wing smashed through her command bridge. Out of control, the Executor careened into the Death Star and exploded.",
 "image":"https://lumiere-a.akamaihd.net/v1/images/databank_executor_01_169_8157df82.jpeg?region=57%2C0%2C1503%2C845&width=768",
 "model": "Executor-class star dreadnought",
 "manufacturer": "Kuat Drive Yards, Fondor Shipyards",
@@ -30,6 +31,8 @@
 },
 {
 "name": "Sentinel-class landing craft",
+"id":"002",
+"description":"Designed by Sienar Fleet Systems, the Sentinel-class shuttle was a larger-scale troop transport used by the Empire. Much like its cousin, the Lambda-class shuttle, these vehicles featured three wings in a triangular layout: a stationary center foil and two articulated flanking wings. Imperials used the shuttle for missions that spanned the galaxy, from a search for droids on Tatooine to conflicts with the Lothal rebels.",
 "image":"https://lumiere-a.akamaihd.net/v1/images/Imperial-Sentinel-Class-Shuttle_a2dc7d3b.jpeg?region=0%2C0%2C1596%2C898&width=768",
 "model": "Sentinel-class landing craft",
 "manufacturer": "Sienar Fleet Systems, Cyngus Spaceworks",
@@ -53,6 +56,8 @@
 },
 {
 "name": "Death Star",
+"id":"003",
+"description":"The Death Star was the Empire’s ultimate weapon: a moon-sized space station with the ability to destroy an entire planet. But the Emperor and Imperial officers like Grand Moff Tarkin underestimated the tenacity of the Rebel Alliance, who refused to bow to this technological terror.",
 "image":"https://lumiere-a.akamaihd.net/v1/images/Death-Star-I-copy_36ad2500.jpeg?region=0%2C0%2C1600%2C900&width=768",
 "model": "DS-1 Orbital Battle Station",
 "manufacturer": "Imperial Department of Military Research, Sienar Fleet Systems",
@@ -76,6 +81,8 @@
 },
 {
 "name": "Millennium Falcon",
+"id":"004",
+"description":"Despite her humble origins and shabby exterior, the Millennium Falcon has played a role in some of the greatest victories of the Rebel Alliance and the New Republic. The Falcon looks like a worn-out junker, but beneath her hull she’s full of surprises. A succession of owners, from Lando Calrissian and Han Solo to Gannis Ducain, have made special modifications that boosted the freighter’s speed, shielding and firepower to impressive – and downright illegal – levels. The price of such tinkering? The Falcon can be unpredictable, with her hyperdrive particularly balky. Despite her flaws, she’s beloved by her owners – Han Solo and Chewbacca have spent years searching the galaxy for the ship they once called home.",
 "image": "https://lumiere-a.akamaihd.net/v1/images/Millennium-Falcon_018ea796.jpeg?region=0%2C1%2C1536%2C864&width=768",
 "model": "YT-1300 light freighter",
 "manufacturer": "Corellian Engineering Corporation",
@@ -107,6 +114,8 @@
 },
 {
 "name": "Y-wing",
+"id":"005",
+"description":"The Y-wing is a workhorse starfighter has been in use since the Clone Wars. Used for dogfights and for bombing runs against capital ships and ground targets, Y-wings are often overshadowed by newer models such as the X-wing and the A-wing. But the Y-wing's historical importance is remarkable, and it has reliably served multiple generations of star pilots.",
 "image":"https://lumiere-a.akamaihd.net/v1/images/Y-Wing-Fighter_0e78c9ae.jpeg?region=0%2C0%2C1536%2C864&width=768",
 "model": "BTL Y-wing",
 "manufacturer": "Koensayr Manufacturing",
@@ -132,6 +141,8 @@
 },
 {
 "name": "X-wing",
+"id":"006",
+"description":"The X-wing is a versatile Rebel Alliance starfighter that balances speed with firepower. Armed with four laser cannons and two proton torpedo launchers, the X-wing can take on anything the Empire throws at it. Nimble engines give the X-wing an edge during dogfights, and it can make long-range jumps with its hyperdrive and its astromech droid co-pilot. Luke Skywalker is famous for destroying the Death Star behind the controls of an X-wing.",
 "image": "https://lumiere-a.akamaihd.net/v1/images/X-Wing-Fighter_47c7c342.jpeg?region=0%2C1%2C1536%2C864&width=768",
 "model": "T-65 X-wing",
 "manufacturer": "Incom Corporation",
@@ -162,6 +173,8 @@
 },
 {
 "name": "TIE Advanced x1",
+"id":"007",
+"description":"Tasked personally by Darth Vader with a mission to destroy all children of the Force, the Inquisitor was given access to the Empire's latest technologies. The Inquisitor's TIE Advanced prototype was superior to typical TIE fighters, featuring faster engines, S-foils with more efficient solar gather panels, upgraded laser cannons, and a projectile launcher that fired Imperial XX-23 S-Thread Tracers.",
 "image":"https://lumiere-a.akamaihd.net/v1/images/image_3aaf40b1.jpeg?region=0%2C0%2C1920%2C1080&width=768",
 "model": "Twin Ion Engine Advanced x1",
 "manufacturer": "Sienar Fleet Systems",
@@ -187,6 +200,8 @@
 },
 {
 "name": "Slave 1",
+"id":"008",
+"description":"The deadly Slave I was infamous for its association with Jango Fett, a bounty hunter in Mandalorian armor. Fett packed the craft with weapons, from laser cannons and projectile launchers to seismic charges. Boba Fett inherited Slave I upon Jango’s death, but Aurra Sing crashed it on Florrum and Boba was taken into Republic custody. Hondo Ohnaka repaired Slave I, and Boba later reclaimed it. A generation after Jango’s death, the distinctive craft remained the last thing fugitives wanted to see on their scanners.",
 "image":"https://lumiere-a.akamaihd.net/v1/images/databank_slavei_01_169_8dc3102d.jpeg?region=0%2C0%2C1560%2C878&width=768",
 "model": "Firespray-31-class patrol and attack",
 "manufacturer": "Kuat Systems Engineering",
@@ -213,6 +228,8 @@
 },
 {
 "name": "Imperial shuttle",
+"id":"009",
+"description":"An elegant example that stands apart from typical brutish Imperial engineering, the Lambda-class shuttle is a multi-purpose transport used in the Imperial starfleet. The Empire pressed the shuttle into service for both cargo ferrying and passenger duty. Even the Empire's elite, like Darth Vader and the Emperor Palpatine used these shuttles. It has three wings: a stationary center foil and two articulated flanking wings. When in flight, the side wings fold out for greater stabilization. When landing, the wings fold in, shrinking the vessel's silhouette.The well-armed vessel has two forward-facing double laser cannons, two wing-mounted double cannons, and a rear-facing double laser cannon. It is equipped with a hyperdrive.",
 "image":"https://lumiere-a.akamaihd.net/v1/images/veh_ia_1752_040381b2.jpeg?region=0%2C70%2C1280%2C720&width=768",
 "model": "Lambda-class T-4a shuttle",
 "manufacturer": "Sienar Fleet Systems",
@@ -241,6 +258,8 @@
 },
 {
 "name": "EF76 Nebulon-B escort frigate",
+"id":"010",
+"description":"These versatile rebel cruisers were often used to escort rebel convoys, protecting ships from Imperial patrols with an array of powerful turbolasers and tractor beams. After his confrontation with Darth Vader on Cloud City, Luke Skywalker recovered from his injuries aboard a Nebulon-B medical frigate. These escort ships were part of the rebel armada that assaulted the second Death Star at Endor.",
 "image":"https://lumiere-a.akamaihd.net/v1/images/nebulon-b-frigate_dce53bc2.jpeg?region=0%2C0%2C1181%2C664&width=768",
 "model": "EF76 Nebulon-B escort frigate",
 "manufacturer": "Kuat Drive Yards",

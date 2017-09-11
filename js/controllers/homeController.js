@@ -1,19 +1,30 @@
 angular.module('starwarsApp')
-    .controller('homeController', function($scope, $location, apiService) {
+    .controller('homeController', function($scope, $window, $rootScope, $location, apiService) {
+      
+      $scope.init = function () {
 
-      $scope.getDetailsById = function(id) {
-        $location.path('/details')
-       var idShip = $scope.idShipSelected
-       console.log(idShip)
+        $rootScope.getShips()
+  }
+  
+  
+      $scope.getDetailsById = function(shipSelected) {
+      $rootScope.ship = shipSelected
+      console.log(shipSelected.id)
+      console.log(shipSelected.name)
+      
+
+       $location.path('/details')
       }
       
-      $scope.getShips = function () {
-     console.log('this fucking button works')
-    apiService.getShips()
-    .then(function(response) {
-      $scope.ships = response
-  	    console.log(response)
-  	  })
-  }
-     
+      $rootScope.getShips = function () {
+          console.log('this fucking button works')
+          apiService.getShips()
+            .then(function(response) {
+              $rootScope.ships = response
+              console.log(response)
+            })
+      }
+
     })
+
+

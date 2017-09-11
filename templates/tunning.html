@@ -9,15 +9,14 @@
 </nav>
 <section class="container" id="right">
     <div class="row">
-        <div class="col-xs-12 col-md-4 col-md-offset-2 ships-box">
+        <div class="col-xs-6 col-md-4 col-md-offset-2 ships-box">
             <a href="#" class="thumbnail">
-                <img src="http://www.theforce.net/swtc/Pix/dvd/ep5/supersd3.jpg" alt="...">
+                <img src="{{ship.image}}" alt="...">
               </a>
-            <div class="caption">
-                <h4>Death Star</h4>
-            </div>
+           
+                <h4 id="caption">{{ship.name}}</h4>
         </div>
-        <div class="col-xs-12 col-md-4 col-md-offset-1 ships-box">
+        <div class="col-xs-6 col-md-4 col-md-offset-1 ships-box">
             <a href="#" class="thumbnail">
                 <img src="http://www.theforce.net/swtc/Pix/dvd/ep5/supersd3.jpg" alt="...">
               </a>
@@ -26,9 +25,9 @@
             </div>
         </div>
         <div class="row switch-buttons">
-            <div class="col-xs-12 col-md-4 col-md-offset-2 ships-box">
+            <div class="col-xs-12 col-md-4 col-md-offset-4 enablebtn">
                 <label class="input-toggle">
-                    <input type="checkbox" checked>s
+                    <input type="checkbox" checked>
                     <span></span>
                 </label>
                 <p id="set-buttons">Enable detection</p>
@@ -50,7 +49,7 @@
             </div>
         </div>
         <div class="row switch-buttons">
-            <div class="col-xs-12 col-md-4 col-md-offset-2 ships-box">
+            <div class="col-xs-6 col-md-4 col-md-offset-2 ships-box">
                 <input id="date" type="date" min="2017-04-01" max="2017-04-20" required>
                 <span class="validity"></span>
                 <p class="reservation"><img id="date-img" src="icon.png">Reservation date</p>
