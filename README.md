@@ -1,6 +1,6 @@
 #Getting Started 
 
-## **Dependencies**: The following dependencies where use to make the Web application:
+## **Dependencies**: The following dependencies were use to make the Web application:
 
 - angular 1.6.6
 - angular-route 1.6.6
@@ -9,6 +9,7 @@
 ## **Installation**: 
 
 >-Get the code: git clone https://github.com/LeonelAV/starwars.git
+
 >-To install dependencies you can just do: 
 ```
 bower install
