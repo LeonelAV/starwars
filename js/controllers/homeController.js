@@ -2,7 +2,6 @@ angular.module('starwarsApp')
     .controller('homeController', function($scope, $window, $rootScope, $location, apiService) {
       
       $scope.init = function () {
-
         $rootScope.getShips()
   }
   
@@ -13,7 +12,7 @@ angular.module('starwarsApp')
       console.log(shipSelected.name)
       
 
-       $location.path('/details')
+      $location.path('/details')
       }
       
       $rootScope.getShips = function () {

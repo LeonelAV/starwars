@@ -119,6 +119,10 @@
   left: 2%;
 }
 
+#map{
+  margin-top: 16px;
+}
+
 /* on/off switch button*/
 label.input-toggle {
   line-height: 0;
