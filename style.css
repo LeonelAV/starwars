@@ -31,6 +31,10 @@
   margin-right: 20px;
 }
 
+#main-img {
+  cursor: pointer;
+}
+
 #left > ul {
   margin-top: 100px;
   margin-right: 20px;

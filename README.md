@@ -1,4 +1,4 @@
-#Getting Started 
+##Getting Started 
 
 ## **Dependencies**: The following dependencies were use to make the Web application:
 
