@@ -4,5 +4,5 @@ angular.module('starwarsApp')
       $scope.selectShip = function() {
         $location.path('/tunning')
       }
-
     })
+    

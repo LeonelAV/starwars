@@ -7,11 +7,11 @@
         </ul>
     </div>
 </nav>
-<section class="container" id="right" >
+<section class="container" id="right">
     <div class="row scroll-row">
-        <div class="col-xs-6 col-md-4 ships-box"  ng-repeat="ship in ships"  >
-            <a type="button"  class="thumbnail" ng-click="getDetailsById(ship)" ><img src="{{ship.image}}" alt="..."></a>
-                <h4 id="caption" >{{ship.name}}</h4>
+        <div class="col-xs-6 col-md-4 ships-box" ng-repeat="ship in ships">
+            <a type="button" class="thumbnail" ng-click="getDetailsById(ship)"><img src="{{ship.image}}" alt="..."></a>
+            <h4 id="caption">{{ship.name}}</h4>
         </div>
     </div>
 </section>
